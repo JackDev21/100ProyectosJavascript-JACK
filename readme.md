@@ -7,44 +7,6 @@
   </h3>
 </div>
 
-<div align="center">
-    <a href="https://www.javascript100.dev">
-        Website
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="#-proyectos">
-        Proyectos
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="#-contribuir">
-        Contribuir
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="https://www.youtube.com/c/midudev">
-        YouTube
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="https://twitter.com/midudev">
-        Twitter
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="https://twitch.tv/midudev">
-        Twitch
-    </a>
-</div>
-
-<p></p>
-
-<div align="center">
-
-![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/midudev/javascript-100-proyectos)
-![GitHub issues](https://img.shields.io/github/issues/midudev/javascript-100-proyectos)
-![GitHub forks](https://img.shields.io/github/forks/midudev/javascript-100-proyectos)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/javascript-100-proyectos)
-![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-
-</div>
 
 ## ✨ Proyectos
 
