@@ -7,7 +7,6 @@ const $sprite = document.querySelector('#sprite')
 const $bricks = document.querySelector('#bricks')
 
 
-
 //tamaño del canvas
 canvas.width = 600
 canvas.height = 400
@@ -71,10 +70,7 @@ for (let columna = 0; columna < bricksColumnCount; columna++) {
       color: random
     }
   }
-
-
 }
-
 
 
 
@@ -158,7 +154,6 @@ const collisionDetection = () => {
         direccionY = -direccionY
         currentBrick.status = BRICK_STATUS.DESTROYED
       }
-
     }
   }
 }
@@ -180,10 +175,10 @@ const ballMovement = () => {
 
   // Pelota toca la paleta
   const isBallSameXAsPaddle = (
-    posicionX >= paddleX && posicionX <= paddleX + paddleWidth)
+    posicionX >= paddleX && posicionX <= paddleX + paddleWidth) // Pelota toca la paleta en horizontal
 
-  // 
-  const isBallTouchingPaddle = (
+  // Pelota toca la paleta
+  const isBallTouchingPaddle = ( // Pelota toca la paleta en vertical
     posicionY + direccionY > paddleY
   )
 
@@ -199,7 +194,6 @@ const ballMovement = () => {
     document.location.reload()
   }
 
-
   //Mover pelota
   posicionX += direccionX
   posicionY += direccionY
@@ -213,7 +207,6 @@ const paddleMovement = () => {
   } else if (leftPressed && paddleX > 0) {
     paddleX -= PADDLE_SENSITIVITY
   }
-
 }
 
 
@@ -236,7 +229,6 @@ const keyUpHandler = (event) => {
   }
   if (key === 'Left' || key === 'ArrowLeft') {
     leftPressed = false
-
   }
 }
 
@@ -248,7 +240,6 @@ const keyDownHandler = (event) => {
   }
   if (key === 'Left' || key === 'ArrowLeft') {
     leftPressed = true
-
   }
 }
 
